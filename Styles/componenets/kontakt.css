@@ -1,0 +1,54 @@
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.kontakt__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-indigo300);
+    text-transform: capitalize;
+}
+
+.kontakt__description {
+    font-size: var(--size-sm);
+    color: var(--clr-gray600);
+    max-width: 60ch;
+}
+
+.kontakt__btn {
+    font-size: var(--size-sm);
+    margin-bottom: 2rem;
+}
+
+
+
+/* for easy reference */
+
+/* xs */
+/* @media (min-width: 475px) { */
+
+/* } */
+/* sm */
+/* @media (min-width: 640px) { */
+    
+/* } */
+/* md */
+/* @media (min-width: 768px) { */
+    
+/* } */
+/* lg */
+/* @media (min-width: 1024px) { */
+    
+/* } */
+/* xl */
+/* @media (min-width: 1280px) { */
+    
+/* } */
+/* 2xl */
+/* @media (min-width: 1536px) { */
+    
+/* } */

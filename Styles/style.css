@@ -1,0 +1,94 @@
+:root {
+    --clr-sky: hsl(196, 100%, 5%);
+    --clr-light: hsl(204, 100%, 97%);
+    --clr-fuchsia500: hsl(292, 84%, 61%);
+    --clr-indigo300: hsl(230, 94%, 82%);
+    --clr-indigo200: hsl(228, 96%, 89%);
+    --clr-indigo700: hsl(245, 58%, 51%);
+    --clr-gray800: hsl(215, 28%, 17%);
+    --clr-indigo200: hsl(228, 96%, 89%);
+    --clr-gray600: hsl(215, 14%, 34%);
+    --clr-blue400: hsl(213, 94%, 68%);
+    --clr-scroll500: hsl(332, 44%, 69%);
+
+
+    /* Sizes */
+
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5em);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.light-mode {
+    --clr-light: hsl(196, 100%, 5%);
+    --clr-sky: hsl(204, 100%, 97%);
+    --clr-fuchsia500: hsl(292, 84%, 61%);
+    --clr-indigo300: hsl(215, 28%, 17%);
+    --clr-indigo200: hsl(215, 28%, 17%);
+    --clr-indigo700: hsl(245, 58%, 51%);
+    --clr-gray800: hsl(215, 28%, 17%);
+    --clr-indigo200: hsl(215, 28%, 17%);
+    --clr-gray600: hsl(215, 28%, 17%);
+    --clr-blue400: hsl(213, 94%, 68%);
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-sky);
+    color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+/* SScroll bar */
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-scroll500);
+    outline: 1px solid var(--clr-scroll500);
+  }
