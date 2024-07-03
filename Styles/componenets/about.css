@@ -21,6 +21,10 @@
     color: var(--clr-gray600);
 }
 
+.about__img {
+    border-radius: 3em;
+}
+
 /* xs */
 @media (min-width: 475px) {
     .about {
